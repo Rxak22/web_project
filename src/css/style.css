@@ -1,0 +1,72 @@
+body {
+    font-family: 'tahoma';
+    background-color: rgb(16, 16, 16);
+    position: relative;
+}
+.txt-default {
+    color: rgb(211, 211, 211);
+}
+.txt-hover {
+    color: rgb(255, 255, 255);
+}
+.backdrop {
+    background-color: rgba(49, 49, 49, 0.394);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+}
+.bg-gray {
+    background-color: rgb(92, 92, 92);
+}
+.nav-width {
+    width: 60%;
+}
+.border-b {
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, rgba(62, 63, 62, 0.37), rgb(125, 125, 125), rgba(62, 63, 62, 0.37));
+    border-image-slice: 1;
+}
+.round {
+    border-radius: 30PX;
+}
+.border-full {
+    border: 0.1px solid rgba(144, 144, 144, 0.438);
+}
+.border-hover:hover {
+    border-color: rgba(144, 144, 144, 0.711);
+}
+.bg-none {
+    background-color: transparent;
+}
+.search {
+    color: rgb(225, 225, 225);
+    outline: none;
+    padding: 10px 40px 10px 15px;
+}
+.outline-none {
+    outline: none;
+}
+.right {
+    right: 15px;
+}
+.transition {
+    transition: all 0.2s;
+}
+.pointer {
+    cursor: pointer;
+}
+.bell-size {
+    font-size: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.hover:hover {
+    color: white;
+}
+.menu:hover {
+    color: white;
+}
+.menu:hover > .icon {
+    color: white;
+}
